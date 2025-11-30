@@ -1,8 +1,8 @@
 title: "Pillars of Thought"
 description: "A minimal, paper-textured notebook of ideas across history, philosophy, theology, and policy."
 author: "Pillars Collective"
-url: "https://rowern711.github.io"
-baseurl: "/pillarsblog"
+url: ""
+baseurl: ""
 permalink: "/:categories/:year/:month/:day/:title/"
 markdown: kramdown
 theme: null
