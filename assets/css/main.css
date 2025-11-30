@@ -95,6 +95,7 @@ ul { list-style-type: square; padding-left: 1.2em; }
 }
 
 #side {display:none; width:0%;}
+#main {width:100%;}
 
 .description { text-align: left; margin: 0; }
 .archive-row { line-height: normal; padding: .3em 0; }
