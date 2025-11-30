@@ -2,8 +2,8 @@
 name: "Pillars of Thought"
 title: "Pillars of Thought"
 description: "Plain-language notes on philosophy, theology, history, and policy."
-url: "https://yourname.github.io" # set to your GitHub Pages URL
-baseurl: "/blog" # e.g., "/pillarsthought" for project pages
+url: "" # set to your GitHub Pages URL
+baseurl: "" # e.g., "/pillarsthought" for project pages
 permalink: "/:categories/:year/:month/:day/:title/"
 markdown: kramdown
 theme: null
@@ -31,11 +31,9 @@ pillars:
   - policy
 
 navigation_links:
-  - label: "Home"
-    url: "/"
   - label: "About"
-    url: "/#about"
+    url: "#about"
   - label: "Contact"
-    url: "/#contact"
+    url: "#contact"
   - label: "Archive"
     url: "/archive.html"

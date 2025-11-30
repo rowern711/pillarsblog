@@ -1,15 +1,10 @@
 <header id="header">
   <nav id="navigation_box" aria-label="Primary">
-    <div class="nav-links">
+    <div id="left_navigation_box">
       {% for link in site.navigation_links %}
       <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
       {% endfor %}
     </div>
-    <form class="nav-search" role="search" action="https://duckduckgo.com/" method="get">
-      <label class="sr-only" for="search-query">Search Pillars of Thought</label>
-      <input type="hidden" name="sites" value="{{ site.url }}{{ site.baseurl }}">
-      <input id="search-query" name="q" type="search" placeholder="Search" />
-    </form>
   </nav>
   <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
   <p class="tagline">{{ site.description }}</p>
